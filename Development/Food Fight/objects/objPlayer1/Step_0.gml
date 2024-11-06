@@ -20,7 +20,7 @@ if (keyboard_check(ord("I"))) {
     }
 }
 
-// Face objPlayer1
+// Face objPlayer0
 if (instance_exists(objPlayer0)) {
     if (x < objPlayer0.x) {
         image_xscale = 1;  // Face right
