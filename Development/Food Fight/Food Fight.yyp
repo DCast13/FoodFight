@@ -51,6 +51,7 @@
     {"id":{"name":"sprGround","path":"sprites/sprGround/sprGround.yy",},},
     {"id":{"name":"sprPizzaBlock","path":"sprites/sprPizzaBlock/sprPizzaBlock.yy",},},
     {"id":{"name":"sprPizzaIdle","path":"sprites/sprPizzaIdle/sprPizzaIdle.yy",},},
+    {"id":{"name":"sprPizzaJump","path":"sprites/sprPizzaJump/sprPizzaJump.yy",},},
     {"id":{"name":"sprPizzaWalk","path":"sprites/sprPizzaWalk/sprPizzaWalk.yy",},},
     {"id":{"name":"sprTacoIdle","path":"sprites/sprTacoIdle/sprTacoIdle.yy",},},
     {"id":{"name":"sprTempBackground","path":"sprites/sprTempBackground/sprTempBackground.yy",},},
