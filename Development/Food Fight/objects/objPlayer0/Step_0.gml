@@ -5,6 +5,20 @@ if (instance_place(x, y + 1, objGround)) {
     gravity = 1.2;
 }
 
+if (keyboard_check(ord("A")) || keyboard_check(ord("D"))) {
+	moving = true;
+}
+
+else {
+	moving = false;
+}
+
+if(moving) {
+	sprite_index = sprPizzaWalk
+} else {
+	sprite_index = sprPizzaIdle
+}
+
 if (keyboard_check(ord("A")) && !instance_place(x - move_speed, y, objGround)) {
     x += -move_speed;
 }
