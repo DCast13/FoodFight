@@ -34,8 +34,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Pizza",
-    "path":"folders/Sprites/Pizza.yy",
+    "name":"Ground",
+    "path":"folders/Sprites/Pizza/Ground.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
