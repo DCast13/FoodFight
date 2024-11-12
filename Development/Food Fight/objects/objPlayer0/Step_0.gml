@@ -1,3 +1,23 @@
+// Assigns controls based on controller
+if(gamepad_is_connected(controllerIndex)){
+	keyRight = gamepad_button_check(controllerIndex, gpRight);
+	keyLeft = gamepad_button_check(controllerIndex, gpLeft);
+	keyUp = gamepad_button_check(controllerIndex, gpUp);
+	keyDown = gamepad_button_check(controllerIndex, gpDown);
+	lightAttack = gamepad_button_check(controllerIndex, gpLight);
+	medAttack = gamepad_button_check(controllerIndex, gpMed);
+	heavyAttack = gamepad_button_check(controllerIndex, gpHeavy);
+
+}else{
+	keyRight = keyboard_check(kbRight);
+	keyLeft = keyboard_check(kbLeft);
+	keyUp = keyboard_check(kbUp);
+	keyDown = keyboard_check(kbDown);
+	lightAttack = keyboard_check(kbLight);
+	medAttack = keyboard_check(kbMed);
+	heavyAttack = keyboard_check(kbHeavy);
+}
+
 // Check if on the ground
 if (instance_place(x, y + 1, objGround)) {
     gravity = 0;
@@ -22,7 +42,7 @@ if (instance_place(x, y + 1, objGround)) {
 }
 
 // Set movement state
-moving = keyboard_check(ord("A")) || keyboard_check(ord("D"));
+moving = keyLeft || keyRight;
 
 // Horizontal movement
 if (moving) {
@@ -30,11 +50,11 @@ if (moving) {
     sprite_index = sprPizzaWalk;
 
     // Move left
-    if (keyboard_check(ord("A")) && !instance_place(x - move_speed, y, objGround)) {
+    if (keyLeft == 1 && !instance_place(x - move_speed, y, objGround)) {
         x -= move_speed;
     }
     // Move right
-    if (keyboard_check(ord("D")) && !instance_place(x + move_speed, y, objGround)) {
+    if (keyRight == 1 && !instance_place(x + move_speed, y, objGround)) {
         x += move_speed;
     }
 } else {
@@ -43,7 +63,7 @@ if (moving) {
 }
 
 // Jump
-if (keyboard_check(ord("W")) && instance_place(x, y + 1, objGround)) {
+if (keyUp == 1 && instance_place(x, y + 1, objGround)) {
     vspeed = jump_height;
     gravity = 0;
     sprite_index = sprPizzaJump;
