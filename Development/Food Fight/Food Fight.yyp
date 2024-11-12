@@ -37,8 +37,8 @@
     {"$GMFolder":"","%Name":"Ground","folderPath":"folders/Sprites/Ramen/Ground.yy","name":"Ground","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Taco","folderPath":"folders/Sprites/Taco.yy","name":"Taco","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Air","folderPath":"folders/Sprites/Taco/Air.yy","name":"Air","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Ground","folderPath":"folders/Sprites/Taco/Ground.yy","name":"Ground","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Crouch","folderPath":"folders/Sprites/Taco/Crouch.yy","name":"Crouch","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Ground","folderPath":"folders/Sprites/Taco/Ground.yy","name":"Ground","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -46,7 +46,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Food Fight",
   "resources":[
@@ -67,6 +67,8 @@
     {"id":{"name":"sprPizzaJump","path":"sprites/sprPizzaJump/sprPizzaJump.yy",},},
     {"id":{"name":"sprPizzaWalk","path":"sprites/sprPizzaWalk/sprPizzaWalk.yy",},},
     {"id":{"name":"sprTacoIdle","path":"sprites/sprTacoIdle/sprTacoIdle.yy",},},
+    {"id":{"name":"sprTacoLightAttack","path":"sprites/sprTacoLightAttack/sprTacoLightAttack.yy",},},
+    {"id":{"name":"sprTacoWalking","path":"sprites/sprTacoWalking/sprTacoWalking.yy",},},
     {"id":{"name":"sprTempBackground","path":"sprites/sprTempBackground/sprTempBackground.yy",},},
     {"id":{"name":"sprTempCharacter","path":"sprites/sprTempCharacter/sprTempCharacter.yy",},},
     {"id":{"name":"sprTempCharacter1","path":"sprites/sprTempCharacter1/sprTempCharacter1.yy",},},

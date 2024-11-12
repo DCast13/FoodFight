@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBurgerIdle",
-    "path":"sprites/sprBurgerIdle/sprBurgerIdle.yy",
+    "name":"sprTacoIdle",
+    "path":"sprites/sprTacoIdle/sprTacoIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -35,7 +35,7 @@
   ],
   "name":"sprPizzaIdle",
   "nineSlice":null,
-  "origin":4,
+  "origin":3,
   "parent":{
     "name":"Pizza",
     "path":"folders/Sprites/Pizza.yy",
@@ -123,7 +123,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":64,
+    "xorigin":0,
     "yorigin":96,
   },
   "swatchColours":null,
