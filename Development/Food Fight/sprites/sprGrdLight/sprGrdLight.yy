@@ -32,7 +32,7 @@
   ],
   "name":"sprGrdLight",
   "nineSlice":null,
-  "origin":4,
+  "origin":3,
   "parent":{
     "name":"Ground",
     "path":"folders/Sprites/Pizza/Ground.yy",
@@ -111,7 +111,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":64,
+    "xorigin":0,
     "yorigin":96,
   },
   "swatchColours":null,
