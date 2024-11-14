@@ -27,7 +27,7 @@
   ],
   "name":"sprTacoLightAttack",
   "nineSlice":null,
-  "origin":3,
+  "origin":9,
   "parent":{
     "name":"Ground",
     "path":"folders/Sprites/Taco/Ground.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":60,
     "yorigin":96,
   },
   "swatchColours":null,
