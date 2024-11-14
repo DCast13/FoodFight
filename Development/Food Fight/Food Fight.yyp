@@ -55,6 +55,7 @@
     {"id":{"name":"objGround","path":"objects/objGround/objGround.yy",},},
     {"id":{"name":"objHitbox","path":"objects/objHitbox/objHitbox.yy",},},
     {"id":{"name":"objHurtbox","path":"objects/objHurtbox/objHurtbox.yy",},},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objPlayer0","path":"objects/objPlayer0/objPlayer0.yy",},},
     {"id":{"name":"objPlayer1","path":"objects/objPlayer1/objPlayer1.yy",},},
     {"id":{"name":"objTempPlayer","path":"objects/objTempPlayer/objTempPlayer.yy",},},
