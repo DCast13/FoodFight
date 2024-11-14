@@ -30,7 +30,7 @@
   ],
   "name":"sprTacoWalking",
   "nineSlice":null,
-  "origin":3,
+  "origin":4,
   "parent":{
     "name":"Taco",
     "path":"folders/Sprites/Taco.yy",
@@ -103,7 +103,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":64,
     "yorigin":96,
   },
   "swatchColours":null,

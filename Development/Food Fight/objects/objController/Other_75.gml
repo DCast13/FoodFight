@@ -11,11 +11,9 @@ else if (async_load[? "event_type"] == "gamepad lost"){
 
 // If two controllers are connected then they can be used
 if(array_length(gamepads) == 2){
-	if(gamepad_is_connected(gamepads[0])){
 		objPlayer0.controllerIndex = gamepads[0];
-	}
+	
 
-	if(gamepad_is_connected(gamepads[1])){
 		objPlayer1.controllerIndex = gamepads[1];
-	}
+	
 }

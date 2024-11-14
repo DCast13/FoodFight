@@ -1,8 +1,7 @@
 controllerIndex = -1
 gravity_direction = 270;
-
-player1 = true;
-player2 = false;
+player1 = p1;
+player2 = p2;
 gpUp = gp_padu;
 gpDown = gp_padd;
 gpLeft = gp_padl;
@@ -31,3 +30,5 @@ if (player1 == true){
 	
 }
 
+
+health = 100;
