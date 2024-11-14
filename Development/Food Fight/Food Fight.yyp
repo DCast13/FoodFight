@@ -60,6 +60,8 @@
     {"id":{"name":"objTempPlayer","path":"objects/objTempPlayer/objTempPlayer.yy",},},
     {"id":{"name":"objWinner","path":"objects/objWinner/objWinner.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
+    {"id":{"name":"scrControllerAssignment","path":"scripts/scrControllerAssignment/scrControllerAssignment.yy",},},
     {"id":{"name":"sprBurgerIdle","path":"sprites/sprBurgerIdle/sprBurgerIdle.yy",},},
     {"id":{"name":"sprGrdLight","path":"sprites/sprGrdLight/sprGrdLight.yy",},},
     {"id":{"name":"sprGround","path":"sprites/sprGround/sprGround.yy",},},
