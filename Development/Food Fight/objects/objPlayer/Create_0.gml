@@ -9,6 +9,7 @@ opponent = noone
 
 state = STATE_FREE
 
+crouch = false
 landed = false
 canAttack = true
 atkType = ATK_LIGHT

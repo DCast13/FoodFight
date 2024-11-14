@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SetSprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SetSprite",
+  "parent":{
+    "name":"Characters",
+    "path":"folders/Scripts/Characters.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

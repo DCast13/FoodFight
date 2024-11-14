@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"FreezeLastFrame",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"FreezeLastFrame",
+  "parent":{
+    "name":"Characters",
+    "path":"folders/Scripts/Characters.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
