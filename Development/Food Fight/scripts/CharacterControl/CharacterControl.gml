@@ -22,10 +22,31 @@ switch (state) {
 		else {
 			
 		}
-	//attacks
+		//attacks
+		if (kcp(atkL)) {
+			SetAttack(ATK_LIGHT)
+			break
+		}
+		else if (kcp(atkM)) {
+			SetAttack(ATK_MEDIUM)
+			break
+		}
+		else if (kcp(atkH)) {
+			SetAttack(ATK_HEAVY)
+			break
+		}
+	break
+	
+	case STATE_ATTACK:
+		if landed {
+			hspd = 0
+		}
+		if AnimationEnd() {
+			state = STATE_FREE
+		}
 	break
 }
 
-if landed {
+if (landed) {
 	image_xscale = (opponent.x > x) ? 1 : -1
 }
