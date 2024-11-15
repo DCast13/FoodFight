@@ -24,4 +24,23 @@ switch (state) {
 			}
 		}
 	break
+	
+	case STATE_ATTACK:
+		if (!canAttack) {
+			exit
+		}
+		
+		if (landed) {
+			if (crouch) {
+				SetSprite(sprAtkCrch[atkType])
+			}
+			else {
+				SetSprite(sprAtk[atkType])
+			}
+		}
+		else {
+			SetSprite(sprAtkAir[atkType])
+		}
+		canAttack = false
+	break
 }
