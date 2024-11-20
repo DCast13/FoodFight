@@ -42,6 +42,12 @@ switch (state) {
 			hspd = 0
 		}
 		if AnimationEnd() {
+			/*
+			if duck {
+				sprite_index = sprAtkCrch
+				image_index = image_number - 1
+			}
+			*/
 			state = STATE_FREE
 		}
 	break
