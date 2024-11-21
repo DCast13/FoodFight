@@ -1,1 +1,3 @@
-return keyboard_check(argument0)
+function kc(){
+	return keyboard_check(argument0)
+}

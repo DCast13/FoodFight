@@ -12,7 +12,7 @@ atkH = (controller == CONT_P1) ? ord("Y") : ord(".")
 CharacterControl()
 
 //animation control
-AnimationControl()
+//AnimationControl()
 
 //collision
 CollisionAndMovements()
