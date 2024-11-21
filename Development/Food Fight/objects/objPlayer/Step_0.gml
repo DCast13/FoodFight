@@ -15,4 +15,4 @@ CharacterControl()
 AnimationControl()
 
 //collision
-CollisionAndMovements()
+CollisionAndMovement()

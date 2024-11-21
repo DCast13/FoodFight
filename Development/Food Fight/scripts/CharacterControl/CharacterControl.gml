@@ -43,12 +43,10 @@ function CharacterControl(){
 				hspd = 0
 			}
 			if AnimationEnd() {
-				/*
-				if duck {
+				if crouch {
 					sprite_index = sprAtkCrch
 					image_index = image_number - 1
 				}
-				*/
 				state = STATE_FREE
 			}
 		break

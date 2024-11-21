@@ -1,4 +1,4 @@
-function AnumationControl() {
+function AnimationControl() {
 	// Main animation control logic
 	switch (state) {
 	    case STATE_FREE:

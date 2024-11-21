@@ -1,4 +1,4 @@
-function HandleSprites() {
+function HandleSprites(argument0) {
     switch (argument0) {
         case CHAR_PIZZA:
             sprIdle = sprPizzaIdle;
