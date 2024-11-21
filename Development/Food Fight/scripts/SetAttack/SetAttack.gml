@@ -1,2 +1,4 @@
-atkType = argument0
-state = STATE_ATTACK
+function SetAttack(){
+	atkType = argument0
+	state = STATE_ATTACK
+}

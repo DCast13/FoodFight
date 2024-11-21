@@ -1,1 +1,3 @@
-return keyboard_check_released(argument0)
+function kcr(){
+	return keyboard_check_released(argument0)
+}

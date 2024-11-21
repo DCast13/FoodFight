@@ -3,6 +3,7 @@
 #macro CHAR_BURGER		1
 #macro CHAR_TACO		2
 #macro CHAR_RAMEN		3
+#macro MAX_CHARS		4
 #endregion
 
 #region Game Variables
