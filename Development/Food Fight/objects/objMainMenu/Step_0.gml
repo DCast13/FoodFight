@@ -15,7 +15,7 @@ if kcp(ord("R")) {
 		break;
 			
 		case 1: //Training
-			global.enemyType = CONT_TRAIN
+			//global.enemyType = CONT_TRAIN
 			room_goto_next();
 		break;
 		

@@ -1,3 +1,4 @@
+window_set_fullscreen(true)
 names = ["Pizza", "Burger", "Taco", "Ramen"]
 icons = [sprIconPizza, sprIconBurger, sprIconTaco, sprIconRamen]
 ports = [sprPortPizza, sprPortBurger, sprPortTaco, sprPortRamen]
