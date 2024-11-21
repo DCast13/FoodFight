@@ -2,11 +2,10 @@ var width = room_width/2;
 draw_set_font(fontMain)
 draw_set_halign(fa_center)
 draw_set_color(c_green)
-draw_text(width, 50, "Character Select");
 draw_set_halign(fa_left)
 
 for (var i = 0; i < MAX_CHARS; i++) {
-	draw_sprit(icons[i], 0, 64+64*i, 150);
+	draw_sprite(icons[i], 0, 64+64*i, 150);
 	
 	if i == p1Index {
 		draw_set_color(c_red)

@@ -9,3 +9,7 @@ p2Index = 0
 p1Ready = false
 p2Ready = false
 //comReady = false
+
+global.p1Char = CHAR_PIZZA
+global.p2Char = CHAR_TACO
+//global.comChar = CHAR_TACO

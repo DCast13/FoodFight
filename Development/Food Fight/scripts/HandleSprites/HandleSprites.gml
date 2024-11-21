@@ -1,58 +1,76 @@
-function HandleSprites(){
-	switch (argument0) {
-		case CHAR_PIZZA:
-			sprIdle = sprPizzaIdle
-			sprForward = sprPizzaWalk
-			sprBackward = sprPizzaWalk
-			sprFall = sprPizzaFall
-			sprJump = sprPizzaJump
-			sprCrouch = sprPizzaCrouch
-		
-			sprAtk = [sprPizzaLAtk, sprPizzaMAtk, sprPizzaHAtk]
-			sprAtkAir = [sprPizzaLAtkAir, sprPizzaMAtkAir, sprPizzaHAtkAir]
-			sprAtkCrch = [sprPizzaLAtkCrch, sprPizzaMAtkCrch, sprPizzaHAtkCrch]
-		break
-	
-		case CHAR_BURGER:
-			sprIdle = sprBurgerIdle
-			sprForward = sprBurgerWalk
-			sprBackward = sprBurgerWalk
-			sprFall = sprBurgerFall
-			sprJump = sprBurgerJump
-			sprCrouch = sprBurgerCrouch
-		
-			sprAtk = [sprBurgerLAtk, sprBurgerMAtk, sprBurgerHAtk]
-			sprAtkAir = [sprBurgerLAtkAir, sprBurgerMAtkAir, sprBurgerHAtkAir]
-			sprAtkCrch = [sprBurgerLAtkCrch, sprBurgerMAtkCrch, sprBurgerHAtkCrch]
-		break
-	
-		case CHAR_TACO:
-			sprIdle = sprTacoIdle
-			sprForward = sprTacoWalk
-			sprBackward = sprTacoWalk
-			sprFall = sprTacoFall
-			sprJump = sprTacoJump
-			sprCrouch = sprTacoCrouch
-		
-			sprAtk = [sprTacoLAtk, sprTacoMAtk, sprTacoHAtk]
-			sprAtkAir = [sprTacoLAtkAir, sprTacoMAtkAir, sprTacoHAtkAir]
-			sprAtkCrch = [sprTacoLAtkCrch, sprTacoMAtkCrch, sprTacoHAtkCrch]
-		break
-		/*
-		case CHAR_RAMEN:
-			sprIdle = sprRamenIdle
-			sprForward = sprRamenWalk
-			sprBackward = sprRamenWalk
-			sprFall = sprRamenFall
-			sprJump = sprRamenJump
-			sprCrouch = sprRamenCrouch
-		
-			sprAtk = [sprRamenLAtk, sprRamenMAtk, sprRamenHAtk]
-			sprAtkAir = [sprRamenLAtkAir, sprRamenMAtkAir, sprRamenHAtkAir]
-			sprAtkCrch = [sprRamenLAtkCrch, sprRamenMAtkCrch, sprRamenHAtkCrch]
-		break
-		*/
-	}
+function HandleSprites() {
+    switch (argument0) {
+        case CHAR_PIZZA:
+            sprIdle = sprPizzaIdle;
+            sprForward = sprPizzaWalk;
+            sprBackward = sprPizzaWalk;
+            sprFall = sprPizzaAirFall;
+            sprJump = sprPizzaAirJump;
+            sprCrouch = sprPizzaCrouch;
 
-	sprite_index = sprIdle
+            sprAtk = [sprPizzaGrLight, sprPizzaGrMed, sprPizzaGrHeavy];
+            sprAtkAir = [sprPizzaAirLight, sprPizzaAirMed, sprPizzaAirHeavy];
+            sprAtkCrch = [sprPizzaCrLight, sprPizzaCrMed, sprPizzaCrHeavy];
+            break;
+
+        // Uncomment and implement when needed
+        /*
+        case CHAR_BURGER:
+            sprIdle = sprBurgerIdle;
+            sprForward = sprBurgerWalk;
+            sprBackward = sprBurgerWalk;
+            sprFall = sprBurgerAirFall;
+            sprJump = sprBurgerAirJump;
+            sprCrouch = sprBurgerCrouch;
+
+            sprAtk = [sprBurgerGrLight, sprBurgerGrMed, sprBurgerGrHeavy];
+            sprAtkAir = [sprBurgerAirLight, sprBurgerAirMed, sprBurgerAirHeavy];
+            sprAtkCrch = [sprBurgerCrLight, sprBurgerCrMed, sprBurgerCrHeavy];
+            break;
+        */
+
+        case CHAR_TACO:
+            sprIdle = sprTacoIdle;
+            sprForward = sprTacoWalk;
+            sprBackward = sprTacoWalk;
+            sprFall = sprTacoAirFall;
+            sprJump = sprTacoAirJump;
+            sprCrouch = sprTacoCrouch;
+
+            sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
+            sprAtkAir = [sprTacoAirLight, sprTacoAirMed, sprTacoAirHeavy];
+            sprAtkCrch = [sprTacoCrLight, sprTacoCrMed, sprTacoCrHeavy];
+            break;
+
+        // Uncomment and implement when needed
+        /*
+        case CHAR_RAMEN:
+            sprIdle = sprRamenIdle;
+            sprForward = sprRamenWalk;
+            sprBackward = sprRamenWalk;
+            sprFall = sprRamenAirFall;
+            sprJump = sprRamenAirJump;
+            sprCrouch = sprRamenCrouch;
+
+            sprAtk = [sprRamenGrLight, sprRamenGrMed, sprRamenHAtk];
+            sprAtkAir = [sprRamenAirLight, sprRamenAirMed, sprRamenAirHeavy];
+            sprAtkCrch = [sprRamenCrLight, sprRamenCrMed, sprRamenCrHeavy];
+            break;
+        */
+		
+		default:
+            sprIdle = sprTacoIdle;
+            sprForward = sprTacoWalk;
+            sprBackward = sprTacoWalk;
+            sprFall = sprTacoAirFall;
+            sprJump = sprTacoAirJump;
+            sprCrouch = sprTacoCrouch;
+
+            sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
+            sprAtkAir = [sprTacoAirLight, sprTacoAirMed, sprTacoAirHeavy];
+            sprAtkCrch = [sprTacoCrLight, sprTacoCrMed, sprTacoCrHeavy];
+            break;
+    }
+
+    sprite_index = sprIdle;
 }
