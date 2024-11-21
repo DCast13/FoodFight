@@ -14,8 +14,8 @@ p1.opponent = p2
 p2.opponent = p1
 
 //set sprites
-p1.character = CHAR_PIZZA
-p2.character = CHAR_BURGER
+p1.character = global.p1Char
+p2.character = global.p2Char
 
 //update sprites
 with p1 {
