@@ -13,3 +13,5 @@ crouch = false
 landed = false
 canAttack = true
 atkType = ATK_LIGHT
+
+hp = 200

@@ -10,6 +10,8 @@
 #macro GRAVITY_FORCE	0.5
 #macro WALK_SPD			2
 #macro JUMP_FORCE		-10
+
+#macro MAX_HP			200
 #endregion
 
 #region Controllers
