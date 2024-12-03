@@ -14,5 +14,8 @@ CharacterControl()
 //animation control
 AnimationControl()
 
+//hit manager
+HitManager()
+
 //collision
 CollisionAndMovement()
