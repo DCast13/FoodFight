@@ -3,7 +3,32 @@
 function HitManager(){
 	switch (state) {
 		case STATE_ATTACK:
-			
+			if landed {
+				if crouch {
+					var index = atkCrchIndex[atkType]
+					for (var i = 0; i < array_length(index); i++) {
+						if round(image_index) == index[i] {
+							var h = instance_create_layer(x, y, "Instances", objHit)
+						}
+					}
+				}
+				else {
+					var index = atkIndex[atkType]
+					for (var i = 0; i < array_length(index); i++) {
+						if round(image_index) == index[i] {
+							var h = instance_create_layer(x, y, "Instances", objHit)
+						}
+					}
+				}
+			}
+			else {
+				var index = atkAirIndex[atkType]
+				for (var i = 0; i < array_length(index); i++) {
+					if round(image_index) == index[i] {
+						var h = instance_create_layer(x, y, "Instances", objHit)
+					}
+				}
+			}
 		break
 	}
 }
