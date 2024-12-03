@@ -9,12 +9,13 @@ function HandleSprites(argument0) {
             sprCrouch = sprPizzaCrouch;
 
             sprAtk = [sprPizzaGrLight, sprPizzaGrMed, sprPizzaGrHeavy];
+			atkIndex = [4, 3, 3]
             sprAtkAir = [sprPizzaAirLight, sprPizzaAirMed, sprPizzaAirHeavy];
+			atkAirIndex = [3, 2, 4]
             sprAtkCrch = [sprPizzaCrLight, sprPizzaCrMed, sprPizzaCrHeavy];
+			atkCrchIndex = [4, 4, 6]
             break;
 
-        // Uncomment and implement when needed
-        /*
         case CHAR_BURGER:
             sprIdle = sprBurgerIdle;
             sprForward = sprBurgerWalk;
@@ -27,7 +28,6 @@ function HandleSprites(argument0) {
             sprAtkAir = [sprBurgerAirLight, sprBurgerAirMed, sprBurgerAirHeavy];
             sprAtkCrch = [sprBurgerCrLight, sprBurgerCrMed, sprBurgerCrHeavy];
             break;
-        */
 
         case CHAR_TACO:
             sprIdle = sprTacoIdle;
