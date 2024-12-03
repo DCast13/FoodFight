@@ -5,27 +5,27 @@ function HitManager(){
 		case STATE_ATTACK:
 			if landed {
 				if crouch {
-					var index = atkCrchIndex[atkType]
-					for (var i = 0; i < array_length(index); i++) {
-						if round(image_index) == index[i] {
-							var h = instance_create_layer(x, y, "Instances", objHit)
+					var ind = atkCrchIndex[atkType]
+					for (var i = 0; i < array_length(ind); i++) {
+						if round(image_index) == ind[i] {
+							CreateHit(self, noone, 4, 50 * sign(x_scale), 20)
 						}
 					}
 				}
 				else {
-					var index = atkIndex[atkType]
-					for (var i = 0; i < array_length(index); i++) {
-						if round(image_index) == index[i] {
-							var h = instance_create_layer(x, y, "Instances", objHit)
+					var ind = atkIndex[atkType]
+					for (var i = 0; i < array_length(ind); i++) {
+						if round(image_index) == ind[i] {
+							CreateHit(self, noone, 4, 50 * sign(x_scale), 50)
 						}
 					}
 				}
 			}
 			else {
-				var index = atkAirIndex[atkType]
-				for (var i = 0; i < array_length(index); i++) {
-					if round(image_index) == index[i] {
-						var h = instance_create_layer(x, y, "Instances", objHit)
+				var ind = atkAirIndex[atkType]
+				for (var i = 0; i < array_length(ind); i++) {
+					if round(image_index) == ind[i] {
+						CreateHit(self, noone, 4, 50 * sign(x_scale), 70)
 					}
 				}
 			}
