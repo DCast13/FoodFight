@@ -13,16 +13,17 @@ for (var i = 0; i < MAX_CHARS; i++) {
 		draw_sprite(icons[i], 0, 128+330*(i-2)+320, 487);
 	}
 	
+	// Player 1 character select
 	if i == p1Index {
 		draw_set_color(c_red)
 		if i < 2{
 			draw_text(448+330*i+48, 208, "P1");
 		} else
 			draw_text(448+330*(i-2)+48, 496, "P1");
-
 		draw_set_color(c_white)
 	}
 	
+	// Player 2 character select
 	if i == p2Index {
 		draw_set_color(c_blue)
 		if i < 2{
@@ -37,7 +38,7 @@ if p1Ready and p2Ready
 	draw_text(width, 100, "GET READY");
 
 //draw character portraits
-draw_sprite(ports[p1Index], 0, 0, 0);
-draw_sprite_ext(ports[p2Index], 0, width*2, 0, -1, 1, 0, c_white, 1);
+draw_sprite(ports[p1Index], 0, 112, 320);
+draw_sprite_ext(ports[p2Index], 0, 2*width - 112, 320, -1, 1, 0, c_white, 1);
 
 draw_set_halign(fa_left)
