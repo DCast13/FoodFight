@@ -25,8 +25,11 @@ function HandleSprites(argument0) {
             sprCrouch = sprBurgerCrouch;
 
             sprAtk = [sprBurgerGrLight, sprBurgerGrMed, sprBurgerGrHeavy];
+			atkIndex = [2, 3, 6]
             sprAtkAir = [sprBurgerAirLight, sprBurgerAirMed, sprBurgerAirHeavy];
+			atkAirIndex = [2, 3, 7]
             sprAtkCrch = [sprBurgerCrLight, sprBurgerCrMed, sprBurgerCrHeavy];
+			atkCrchIndex = [1, 3, 5]
             break;
 
         case CHAR_TACO:
@@ -38,8 +41,11 @@ function HandleSprites(argument0) {
             sprCrouch = sprTacoCrouch;
 
             sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
+			atkIndex = [3, 3, 5]
             sprAtkAir = [sprTacoAirLight, sprTacoAirMed, sprTacoAirHeavy];
+			atkAirIndex = [3, 3, 4]
             sprAtkCrch = [sprTacoCrLight, sprTacoCrMed, sprTacoCrHeavy];
+			atkCrchIndex = [3, 3, 11]
             break;
 
         // Uncomment and implement when needed
@@ -67,8 +73,11 @@ function HandleSprites(argument0) {
             sprCrouch = sprTacoCrouch;
 
             sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
+			atkIndex = [3, 3, 5]
             sprAtkAir = [sprTacoAirLight, sprTacoAirMed, sprTacoAirHeavy];
+			atkAirIndex = [3, 3, 4]
             sprAtkCrch = [sprTacoCrLight, sprTacoCrMed, sprTacoCrHeavy];
+			atkCrchIndex = [3, 3, 11]
             break;
     }
 
