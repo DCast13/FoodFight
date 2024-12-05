@@ -22,6 +22,7 @@
 #region States
 #macro STATE_FREE		0	
 #macro STATE_ATTACK		1
+#macro STATE_HURT		2
 #endregion
 
 #region Attack Types

@@ -7,11 +7,13 @@ function CreateHit(){
 	dmg = argument2
 	xOffset = argument3
 	yOffset = argument4
-	var h = instance_create_layer(x + xOffset, y + yOffset, "Instances", objHit)
+	var h = instance_create_layer(x + xOffset, y - yOffset, "Instances", objHit)
 	
 	h.owner = owner
 	h.effect = effect
 	h.dmg = dmg
 	h.x_offset = xOffset
 	h.y_offset = yOffset
+	
+	return h
 }
