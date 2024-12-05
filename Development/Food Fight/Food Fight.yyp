@@ -145,6 +145,7 @@
     {"id":{"name":"sprPortRamen","path":"sprites/sprPortRamen/sprPortRamen.yy",},},
     {"id":{"name":"sprPortTaco","path":"sprites/sprPortTaco/sprPortTaco.yy",},},
     {"id":{"name":"sprRamenAirHeavy","path":"sprites/sprRamenAirHeavy/sprRamenAirHeavy.yy",},},
+    {"id":{"name":"sprRamenAirJump","path":"sprites/sprRamenAirJump/sprRamenAirJump.yy",},},
     {"id":{"name":"sprRamenAirLight","path":"sprites/sprRamenAirLight/sprRamenAirLight.yy",},},
     {"id":{"name":"sprRamenAirMed","path":"sprites/sprRamenAirMed/sprRamenAirMed.yy",},},
     {"id":{"name":"sprRamenCrBlock","path":"sprites/sprRamenCrBlock/sprRamenCrBlock.yy",},},
