@@ -23,6 +23,7 @@
 #macro STATE_FREE		0	
 #macro STATE_ATTACK		1
 #macro STATE_HURT		2
+#macro STATE_BLOCK		3
 #endregion
 
 #region Attack Types

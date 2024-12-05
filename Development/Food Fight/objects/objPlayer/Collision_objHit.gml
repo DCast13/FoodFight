@@ -1,3 +1,5 @@
+var backwardKey = (sign(image_xscale) != 1) ? right : left
+
 #region exit
 if other.owner = self {
 	exit
@@ -6,6 +8,22 @@ if last_hit_id == other._id {
 	exit
 }
 #endregion
+
+//block
+if kc(backwardKey) and landed and state == STATE_FREE {
+	if other.low {
+		if crouch {
+			state = STATE_BLOCK
+		}
+	}
+	else {
+		state = STATE_BLOCK
+	}
+}
+
+if state == STATE_BLOCK {
+	exit
+}
 
 //take damage
 last_hit_id = other._id
@@ -20,7 +38,7 @@ if landed {
 /*
 if !landed {
 	vspd = JUMP_FORCE
-	hspd = -25 * sign(image_xscale)
+	hspd = -WALK_SPEED * sign(image_xscale)
 }
 */
 with other {
