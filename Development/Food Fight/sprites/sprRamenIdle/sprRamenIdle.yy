@@ -23,14 +23,14 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":208,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e9e4c8ec-ddd4-40af-8f21-1fe0fef33afd","blendMode":0,"displayName":"default","isLocked":false,"name":"e9e4c8ec-ddd4-40af-8f21-1fe0fef33afd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprRamenIdle",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Ramen",
     "path":"folders/Sprites/Ramen.yy",

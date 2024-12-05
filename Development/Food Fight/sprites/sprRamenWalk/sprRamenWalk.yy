@@ -23,14 +23,14 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":208,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"f951018f-2381-4fbe-ac74-723eaa6bd02d","blendMode":0,"displayName":"default","isLocked":false,"name":"f951018f-2381-4fbe-ac74-723eaa6bd02d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprRamenWalk",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Ramen",
     "path":"folders/Sprites/Ramen.yy",

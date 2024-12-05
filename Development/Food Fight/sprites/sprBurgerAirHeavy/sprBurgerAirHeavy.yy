@@ -35,7 +35,7 @@
   ],
   "name":"sprBurgerAirHeavy",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Air",
     "path":"folders/Sprites/Burger/Air.yy",
@@ -123,7 +123,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":96,
+    "xorigin":64,
     "yorigin":96,
   },
   "swatchColours":null,

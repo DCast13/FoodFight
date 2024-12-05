@@ -24,14 +24,14 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":208,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d38ef8f7-bf23-41e9-a77f-343b77749f28","blendMode":0,"displayName":"default","isLocked":false,"name":"d38ef8f7-bf23-41e9-a77f-343b77749f28","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprBurgerWalk",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Burger",
     "path":"folders/Sprites/Burger.yy",

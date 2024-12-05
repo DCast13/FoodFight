@@ -16,14 +16,14 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":208,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2e57f671-b7e7-481d-9b11-67cecd637064","blendMode":0,"displayName":"default","isLocked":false,"name":"2e57f671-b7e7-481d-9b11-67cecd637064","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprRamenHitStun",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Ramen",
     "path":"folders/Sprites/Ramen.yy",
