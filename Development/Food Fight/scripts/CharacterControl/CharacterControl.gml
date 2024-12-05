@@ -44,10 +44,24 @@ function CharacterControl(){
 			}
 			if AnimationEnd() {
 				if crouch {
-					sprite_index = sprAtkCrch
+					sprite_index = sprCrouch
 					image_index = image_number - 1
 				}
+				RandomizeBaseId()
 				state = STATE_FREE
+			}
+		break
+		
+		case STATE_HURT:
+			if landed {
+				if AnimationEnd() {
+					if crouch {
+						sprite_index = sprCrouch
+						image_index = image_number - 1
+					}
+					state = STATE_FREE
+					break
+				}
 			}
 		break
 	}

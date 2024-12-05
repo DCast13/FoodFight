@@ -7,6 +7,12 @@ function HandleSprites(argument0) {
             sprFall = sprPizzaAirFall;
             sprJump = sprPizzaAirJump;
             sprCrouch = sprPizzaCrouch;
+			
+			/*
+			sprHurt
+			sprHurtH
+			sprHurtCrch
+			*/
 
             sprAtk = [sprPizzaGrLight, sprPizzaGrMed, sprPizzaGrHeavy];
 			atkIndex = [4, 3, 3]
@@ -23,6 +29,12 @@ function HandleSprites(argument0) {
             sprFall = sprBurgerAirFall;
             sprJump = sprBurgerAirJump;
             sprCrouch = sprBurgerCrouch;
+			
+			/*
+			sprHurt
+			sprHurtH
+			sprHurtCrch
+			*/
 
             sprAtk = [sprBurgerGrLight, sprBurgerGrMed, sprBurgerGrHeavy];
 			atkIndex = [2, 3, 6]
@@ -39,6 +51,12 @@ function HandleSprites(argument0) {
             sprFall = sprTacoAirFall;
             sprJump = sprTacoAirJump;
             sprCrouch = sprTacoCrouch;
+			
+			/*
+			sprHurt
+			sprHurtH
+			sprHurtCrch
+			*/
 
             sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
 			atkIndex = [3, 3, 5]
@@ -57,10 +75,17 @@ function HandleSprites(argument0) {
             sprFall = sprRamenAirFall;
             sprJump = sprRamenAirJump;
             sprCrouch = sprRamenCrouch;
+			
+			sprHurt
+			sprHurtH
+			sprHurtC
 
             sprAtk = [sprRamenGrLight, sprRamenGrMed, sprRamenHAtk];
+			atkIndex = []
             sprAtkAir = [sprRamenAirLight, sprRamenAirMed, sprRamenAirHeavy];
+			atkAirIndex = []
             sprAtkCrch = [sprRamenCrLight, sprRamenCrMed, sprRamenCrHeavy];
+			atkCrchIndex = []
             break;
         */
 		
@@ -71,6 +96,12 @@ function HandleSprites(argument0) {
             sprFall = sprTacoAirFall;
             sprJump = sprTacoAirJump;
             sprCrouch = sprTacoCrouch;
+			
+			/*
+			sprHurt
+			sprHurtH
+			sprHurtCrch
+			*/
 
             sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
 			atkIndex = [3, 3, 5]

@@ -14,4 +14,7 @@ landed = false
 canAttack = true
 atkType = ATK_LIGHT
 
+hit_base_id = -999
+last_hit_id = 999
+
 hp = 200

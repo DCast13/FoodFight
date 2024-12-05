@@ -8,7 +8,8 @@ function HitManager(){
 					var ind = atkCrchIndex[atkType]
 					for (var i = 0; i < array_length(ind); i++) {
 						if round(image_index) == ind[i] {
-							CreateHit(self, noone, 4, 50 * sign(x_scale), 20)
+							var h = CreateHit(self, noone, 4, 50 * sign(x_scale), 20)
+							h._id = hit_base_id * round(image_xscale)
 						}
 					}
 				}
@@ -16,7 +17,8 @@ function HitManager(){
 					var ind = atkIndex[atkType]
 					for (var i = 0; i < array_length(ind); i++) {
 						if round(image_index) == ind[i] {
-							CreateHit(self, noone, 4, 50 * sign(x_scale), 50)
+							var h = CreateHit(self, noone, 4, 50 * sign(x_scale), 50)
+							h._id = hit_base_id * round(image_xscale)
 						}
 					}
 				}
@@ -25,7 +27,8 @@ function HitManager(){
 				var ind = atkAirIndex[atkType]
 				for (var i = 0; i < array_length(ind); i++) {
 					if round(image_index) == ind[i] {
-						CreateHit(self, noone, 4, 50 * sign(x_scale), 70)
+						var h = CreateHit(self, noone, 4, 50 * sign(x_scale), 70)
+						h._id = hit_base_id * round(image_xscale)
 					}
 				}
 			}
