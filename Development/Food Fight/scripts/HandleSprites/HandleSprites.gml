@@ -76,10 +76,8 @@ function HandleSprites(argument0) {
             sprIdle = sprRamenIdle;
             sprForward = sprRamenWalk;
             sprBackward = sprRamenWalk;
-			/*
-            sprFall = sprRamenAirFall;
+            // sprFall = sprRamenAirFall;
             sprJump = sprRamenAirJump;
-			*/
             sprCrouch = sprRamenCrouch;
 			
 			sprHurt = sprRamenHitStun
@@ -92,10 +90,8 @@ function HandleSprites(argument0) {
 
             sprAtk = [sprRamenGrLight, sprRamenGrMed, sprRamenGrHeavy];
 			atkIndex = [3, 4, 7]
-			/*
             sprAtkAir = [sprRamenAirLight, sprRamenAirMed, sprRamenAirHeavy];
-			atkAirIndex = []
-			*/
+			atkAirIndex = [3, 4, 5]
             sprAtkCrch = [sprRamenCrLight, sprRamenCrMed, sprRamenCrHeavy];
 			atkCrchIndex = [4, 4, 5]
             break;
