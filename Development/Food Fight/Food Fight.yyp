@@ -58,6 +58,7 @@
   "name":"Food Fight",
   "resources":[
     {"id":{"name":"fontMain","path":"fonts/fontMain/fontMain.yy",},},
+    {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},},
     {"id":{"name":"objCenterViewport","path":"objects/objCenterViewport/objCenterViewport.yy",},},
     {"id":{"name":"objCharSelect","path":"objects/objCharSelect/objCharSelect.yy",},},
     {"id":{"name":"objController","path":"objects/objController/objController.yy",},},

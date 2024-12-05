@@ -24,3 +24,7 @@ with p1 {
 with p2 {
 	HandleSprites(character)
 }
+
+
+//camera creation
+cam = instance_create_layer(room_width / 2, room_height / 2, "Instances", objCamera)
