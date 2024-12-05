@@ -46,12 +46,12 @@ function AnimationControl() {
 	        canAttack = false;
 	    break;
 		
-		/*
+		
 		case STATE_HURT:
 			if landed {
 				SetSprite(crouch?sprHurtCrch:sprHurt)
 			}
 		break
-		*/
+		
 	}
 }

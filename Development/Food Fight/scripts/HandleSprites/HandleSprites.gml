@@ -8,11 +8,11 @@ function HandleSprites(argument0) {
             sprJump = sprPizzaAirJump;
             sprCrouch = sprPizzaCrouch;
 			
-			/*
-			sprHurt
-			sprHurtH
-			sprHurtCrch
-			*/
+			
+			sprHurt = sprPizzaHitStun
+			sprHurtH = sprPizzaHitStun
+			sprHurtCrch = sprPizzaHitStun
+			
 
             sprAtk = [sprPizzaGrLight, sprPizzaGrMed, sprPizzaGrHeavy];
 			atkIndex = [4, 3, 3]
@@ -30,11 +30,11 @@ function HandleSprites(argument0) {
             sprJump = sprBurgerAirJump;
             sprCrouch = sprBurgerCrouch;
 			
-			/*
-			sprHurt
-			sprHurtH
-			sprHurtCrch
-			*/
+			
+			sprHurt = sprBurgerHitStun
+			sprHurtH = sprBurgerHitStun
+			sprHurtCrch = sprBurgerHitStun
+			
 
             sprAtk = [sprBurgerGrLight, sprBurgerGrMed, sprBurgerGrHeavy];
 			atkIndex = [2, 3, 6]
@@ -52,11 +52,11 @@ function HandleSprites(argument0) {
             sprJump = sprTacoAirJump;
             sprCrouch = sprTacoCrouch;
 			
-			/*
-			sprHurt
-			sprHurtH
-			sprHurtCrch
-			*/
+			
+			sprHurt = sprTacoHitStun
+			sprHurtH = sprTacoHitStun
+			sprHurtCrch = sprTacoHitStun
+			
 
             sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
 			atkIndex = [3, 3, 5]
@@ -66,28 +66,25 @@ function HandleSprites(argument0) {
 			atkCrchIndex = [3, 3, 11]
             break;
 
-        // Uncomment and implement when needed
-        /*
         case CHAR_RAMEN:
             sprIdle = sprRamenIdle;
             sprForward = sprRamenWalk;
             sprBackward = sprRamenWalk;
-            sprFall = sprRamenAirFall;
-            sprJump = sprRamenAirJump;
+            sprFall = sprTacoAirFall;
+            sprJump = sprTacoAirJump;
             sprCrouch = sprRamenCrouch;
 			
-			sprHurt
-			sprHurtH
-			sprHurtC
+			sprHurt = sprRamenHitStun
+			sprHurtH = sprRamenHitStun
+			sprHurtC = sprRamenHitStun
 
-            sprAtk = [sprRamenGrLight, sprRamenGrMed, sprRamenHAtk];
-			atkIndex = []
-            sprAtkAir = [sprRamenAirLight, sprRamenAirMed, sprRamenAirHeavy];
-			atkAirIndex = []
+            sprAtk = [sprRamenGrLight, sprRamenGrMed, sprRamenGrHeavy];
+			atkIndex = [3, 4, 7]
+            sprAtkAir = [sprTacoAirLight, sprTacoAirMed, sprTacoAirHeavy];
+			atkAirIndex = [1, 1, 1]
             sprAtkCrch = [sprRamenCrLight, sprRamenCrMed, sprRamenCrHeavy];
-			atkCrchIndex = []
+			atkCrchIndex = [4, 4, 5]
             break;
-        */
 		
 		default:
             sprIdle = sprTacoIdle;
@@ -97,11 +94,9 @@ function HandleSprites(argument0) {
             sprJump = sprTacoAirJump;
             sprCrouch = sprTacoCrouch;
 			
-			/*
-			sprHurt
-			sprHurtH
-			sprHurtCrch
-			*/
+			sprHurt = sprTacoHitStun
+			sprHurtH = sprTacoHitStun
+			sprHurtCrch = sprTacoHitStun
 
             sprAtk = [sprTacoGrLight, sprTacoGrMed, sprTacoGrHeavy];
 			atkIndex = [3, 3, 5]
