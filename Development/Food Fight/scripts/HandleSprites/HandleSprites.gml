@@ -76,13 +76,13 @@ function HandleSprites(argument0) {
             sprIdle = sprRamenIdle;
             sprForward = sprRamenWalk;
             sprBackward = sprRamenWalk;
-            // sprFall = sprRamenAirFall;
+            sprFall = sprRamenAirFall;
             sprJump = sprRamenAirJump;
             sprCrouch = sprRamenCrouch;
 			
 			sprHurt = sprRamenHitStun
 			sprHurtH = sprRamenHitStun
-			sprHurtC = sprRamenHitStun
+			sprHurtCrch = sprRamenHitStun
 			
 			sprBlock = sprRamenGrBlock
 			sprBlockH = sprRamenGrBlock
