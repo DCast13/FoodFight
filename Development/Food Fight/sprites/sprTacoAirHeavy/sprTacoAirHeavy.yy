@@ -29,7 +29,7 @@
   ],
   "name":"sprTacoAirHeavy",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Air",
     "path":"folders/Sprites/Taco/Air.yy",
@@ -99,7 +99,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":100,
+    "xorigin":64,
     "yorigin":96,
   },
   "swatchColours":null,

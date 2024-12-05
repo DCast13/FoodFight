@@ -36,7 +36,7 @@
   ],
   "name":"sprTacoCrHeavy",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Crouch",
     "path":"folders/Sprites/Taco/Crouch.yy",
@@ -127,7 +127,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":96,
+    "xorigin":64,
     "yorigin":96,
   },
   "swatchColours":null,

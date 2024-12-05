@@ -7,9 +7,9 @@
 #endregion
 
 #region Game Variables
-#macro GRAVITY_FORCE	0.5
-#macro WALK_SPD			2
-#macro JUMP_FORCE		-10
+#macro GRAVITY_FORCE	0.6
+#macro WALK_SPD			7
+#macro JUMP_FORCE		-17
 
 #macro MAX_HP			200
 #endregion

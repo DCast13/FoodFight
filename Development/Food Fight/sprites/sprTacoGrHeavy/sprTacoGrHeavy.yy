@@ -35,7 +35,7 @@
   ],
   "name":"sprTacoGrHeavy",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Ground",
     "path":"folders/Sprites/Taco/Ground.yy",
@@ -123,7 +123,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":110,
+    "xorigin":64,
     "yorigin":96,
   },
   "swatchColours":null,

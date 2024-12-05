@@ -27,14 +27,14 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":208,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4c363d1c-d7dd-4c0f-a802-9e586d481b50","blendMode":0,"displayName":"default","isLocked":false,"name":"4c363d1c-d7dd-4c0f-a802-9e586d481b50","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprBurgerIdle",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Burger",
     "path":"folders/Sprites/Burger.yy",

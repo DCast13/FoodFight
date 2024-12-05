@@ -27,7 +27,7 @@
   ],
   "name":"sprRamenGrLight",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Ground",
     "path":"folders/Sprites/Ramen/Ground.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":88,
+    "xorigin":64,
     "yorigin":96,
   },
   "swatchColours":null,
