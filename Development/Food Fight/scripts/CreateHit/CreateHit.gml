@@ -1,17 +1,15 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function CreateHit(){
+function CreateHit(argument0, argument1, argument2, argument3){
 	var owner = argument0
-	var dmg, xOffset, yOffset
+	var dmg, x_offset, y_offset
 	dmg = argument1
-	xOffset = argument2
-	yOffset = argument3
-	var h = instance_create_layer(x + xOffset, y - yOffset, "Instances", objHit)
+	x_offset = argument2
+	y_offset = argument3
+	var h = instance_create_layer(x + x_offset, y - y_offset, "Instances", objHit)
 	
 	h.owner = owner
 	h.dmg = dmg
-	h.x_offset = xOffset
-	h.y_offset = yOffset
+	h.x_offset = x_offset
+	h.y_offset = y_offset
 	
 	return h
 }
