@@ -23,7 +23,7 @@
   ],
   "name":"sprRamenCrouch",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Crouch",
     "path":"folders/Sprites/Ramen/Crouch.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":96,
+    "yorigin":112,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
