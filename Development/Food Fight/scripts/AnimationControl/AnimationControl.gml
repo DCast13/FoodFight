@@ -54,7 +54,7 @@ function AnimationControl() {
 		
 		case STATE_BLOCK:
 			if landed {
-				SetSprite(duck?sprBlockCrch:sprBlock)
+				SetSprite(crouch?sprBlockCrch:sprBlock)
 			}
 		break
 	}
