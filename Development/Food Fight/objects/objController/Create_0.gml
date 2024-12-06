@@ -28,3 +28,16 @@ with p2 {
 
 //camera creation
 cam = instance_create_layer(room_width / 2, room_height / 2, "Instances", objCamera)
+
+/*var stages = [sprKitchenStage, sprPicnicStage, sprSaladBarStage]
+
+var randomStageBg = stages[irandom(array_length(stages) - 1)]
+
+var bgLayer = layer_get_id("background")
+
+var bgElement = layer_sprite_get_id(bgLayer, randomStageBg)
+
+layer_sprite_index(bgElement, randomStageBg)
+
+
+
