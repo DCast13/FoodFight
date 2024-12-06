@@ -23,7 +23,10 @@ function CharacterControl(){
 				crouch = kc(down)
 			}
 			else {
-			
+				if vspd > 0
+					SetSprite(sprFall)
+				else
+					SetSprite(sprJump)
 			}
 			//attacks
 			if (kcp(atkL)) {
