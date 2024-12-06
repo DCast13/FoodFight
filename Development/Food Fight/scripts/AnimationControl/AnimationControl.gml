@@ -50,12 +50,14 @@ function AnimationControl() {
 			if landed {
 				SetSprite(crouch?sprHurtCrch:sprHurt)
 			}
+			state = STATE_FREE
 		break
 		
 		case STATE_BLOCK:
 			if landed {
 				SetSprite(crouch?sprBlockCrch:sprBlock)
 			}
+			state = STATE_FREE
 		break
 	}
 }
