@@ -19,3 +19,7 @@ HitManager()
 
 //collision
 CollisionAndMovement()
+
+if hp <= 0 {
+	room_goto(rmMainMenu)
+}
