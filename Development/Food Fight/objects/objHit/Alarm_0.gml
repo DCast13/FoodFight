@@ -1,1 +1,1 @@
-instance_destory()
+instance_destroy()

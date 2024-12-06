@@ -1,7 +1,7 @@
 var backwardKey = (sign(image_xscale) != 1) ? right : left
 
 #region exit
-if other.owner = self {
+if other.owner == self {
 	exit
 }
 if last_hit_id == other._id {
@@ -35,12 +35,12 @@ if landed {
 	state = STATE_HURT
 	image_index = 0
 }
-/*
-if !landed {
-	vspd = JUMP_FORCE
-	hspd = -WALK_SPEED * sign(image_xscale)
-}
-*/
+
+//if !landed {
+//	vspd = JUMP_FORCE
+//	hspd = -WALK_SPD * sign(image_xscale)
+//}
+
 with other {
 	instance_destroy()
 }
