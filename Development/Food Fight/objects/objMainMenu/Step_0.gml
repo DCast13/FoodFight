@@ -19,7 +19,7 @@ if kcp(ord("R")) {
 			room_goto_next();
 		break;
 		
-		case 3: //Exit
+		case 2: //Exit
 			game_end();
 		break;
 		

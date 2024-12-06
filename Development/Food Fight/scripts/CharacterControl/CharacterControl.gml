@@ -1,4 +1,6 @@
 function CharacterControl(){
+	var forwardKey = (sign(image_xscale) == 1) ? right : left
+	var backwardKey = (sign(image_xscale) != 1) ? right : left
 	switch (state) {
 		case STATE_FREE:
 			canAttack = true
@@ -21,7 +23,10 @@ function CharacterControl(){
 				crouch = kc(down)
 			}
 			else {
-			
+				if vspd > 0
+					SetSprite(sprFall)
+				else
+					SetSprite(sprJump)
 			}
 			//attacks
 			if (kcp(atkL)) {
@@ -49,6 +54,7 @@ function CharacterControl(){
 				}
 				RandomizeBaseId()
 				state = STATE_FREE
+				break
 			}
 		break
 		
@@ -64,8 +70,22 @@ function CharacterControl(){
 				}
 			}
 		break
+		
+		case STATE_BLOCK:
+			if landed {
+				hspd = 0
+			}
+			if AnimationEnd() {
+				if crouch {
+					sprite_index = sprCrouch
+					image_index = image_number - 1
+				}
+				state = STATE_FREE
+				break
+			}
+		break
 	}
-
+	
 	if (landed) {
 		image_xscale = (opponent.x > x) ? 1 : -1
 	}

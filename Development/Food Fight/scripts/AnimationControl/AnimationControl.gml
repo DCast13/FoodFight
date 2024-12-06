@@ -46,12 +46,16 @@ function AnimationControl() {
 	        canAttack = false;
 	    break;
 		
-		/*
 		case STATE_HURT:
 			if landed {
 				SetSprite(crouch?sprHurtCrch:sprHurt)
 			}
 		break
-		*/
+		
+		case STATE_BLOCK:
+			if landed {
+				SetSprite(crouch?sprBlockCrch:sprBlock)
+			}
+		break
 	}
 }
