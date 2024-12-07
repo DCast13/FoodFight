@@ -1,30 +1,26 @@
+// Check for menu navigation inputs
 if kcp(ord("W")) {
-	currIndex-- ;
+    currIndex--;
+} else if kcp(ord("S")) {
+    currIndex++;
 }
 
-if kcp(ord("S")) {
-	currIndex++ ;
-}
+// Clamp currIndex to valid range
+currIndex = clamp(currIndex, 0, array_length_1d(menu) - 1);
 
-currIndex = clamp(currIndex, 0, array_length_1d(menu));
-
+// Handle selection when 'R' is pressed
 if kcp(ord("R")) {
-	switch (currIndex) {
-		case 0: //PvP
-			room_goto_next();
-		break;
-			
-		case 1: //Training
-			//global.enemyType = CONT_TRAIN
-			room_goto_next();
-		break;
-		
-		case 2: //Exit
-			game_end();
-		break;
-		
-		default:
-			room_goto_next();
-		break;
-	}
+    switch (currIndex) {
+        case 0: // PvP
+            room_goto(rmCharSelect); // Redirect to character selection
+        break;
+        
+        case 1: // Controls
+            room_goto(rmControls); // Redirect to controls screen
+        break;
+        
+        case 2: // Exit
+            game_end(); // End the game
+        break;
+    }
 }
