@@ -35,7 +35,7 @@ for (var i = 0; i < MAX_CHARS; i++) {
 }
 
 if p1Ready and p2Ready
-	draw_text(width - 40, 140, "GET READY");
+	draw_text(width - 60, 140, "GET READY");
 
 //draw character portraits
 draw_sprite(ports[p1Index], 0, 112, 320);

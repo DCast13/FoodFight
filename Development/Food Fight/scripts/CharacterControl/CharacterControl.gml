@@ -1,27 +1,44 @@
 function CharacterControl() {
     // Handle movement keys based on character direction
+    scrControllerAssignment()
     var forwardKey = (sign(image_xscale) == 1) ? right : left;
     var backwardKey = (sign(image_xscale) != 1) ? right : left;
-
+    if (array_length(global.gamepads) >= 1){
+        var horizMove = gamepad_button_check(controllerIndex,right) - gamepad_button_check(controllerIndex,left) 
+        var crouching = gamepad_button_check(controllerIndex, down)
+        var jumping = gamepad_button_check_pressed(controllerIndex, up)
+        var lightAtk =  gamepad_button_check_pressed(controllerIndex, atkL)
+        var medAtk = gamepad_button_check_pressed(controllerIndex, atkM)
+        var heavyAtk = gamepad_button_check_pressed(controllerIndex, atkH)
+    } else{
+        var horizMove = kc(right) - kc(left);
+        var crouching = kc(down)
+        var jumping = kc(up)
+        var lightAtk = kc(atkL)
+        var medAtk = kc(atkM)
+        var heavyAtk = kc(atkH)
+    }
+	
     switch (state) {
         case STATE_FREE: {
             canAttack = true;
 
             if (landed) {
                 if (!crouch) {
-                    hspd = WALK_SPD * (kc(right) - kc(left)); // Horizontal movement
+                    hspd = WALK_SPD * (horizMove); // Horizontal movement
                 } else {
                     hspd = 0; // No movement while crouching
                 }
 
                 // Jumping
-                if (kcp(up)) {
+                if (jumping) {
+					audio_play_sound(JumpSound, 2, 0)
                     vspd = JUMP_FORCE;
                     landed = false;
                 }
 
                 // Crouching
-                crouch = kc(down);
+                crouch = crouching;
             } else {
                 // Set appropriate sprite for jumping/falling
                 if (vspd > 0) {
@@ -32,13 +49,13 @@ function CharacterControl() {
             }
 
             // Handle attacks
-            if (kcp(atkL)) {
+            if (lightAtk) {
                 SetAttack(ATK_LIGHT);
                 break;
-            } else if (kcp(atkM)) {
+            } else if (medAtk) {
                 SetAttack(ATK_MEDIUM);
                 break;
-            } else if (kcp(atkH)) {
+            } else if (heavyAtk) {
                 SetAttack(ATK_HEAVY);
                 break;
             }
