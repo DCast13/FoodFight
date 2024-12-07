@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprRamenIdle",
   "bboxMode":0,
-  "bbox_bottom":183,
+  "bbox_bottom":182,
   "bbox_left":7,
   "bbox_right":114,
   "bbox_top":77,
