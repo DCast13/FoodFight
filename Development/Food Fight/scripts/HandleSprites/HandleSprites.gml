@@ -41,7 +41,7 @@ function HandleSprites(argument0) {
 			sprBlockCrch = sprBurgerCrBlock
 			
             sprAtk = [sprBurgerGrLight, sprBurgerGrMed, sprBurgerGrHeavy];
-			atkIndex = [[2], [3], [6]]
+			atkIndex = [[2], [3], [4]]
             sprAtkAir = [sprBurgerAirLight, sprBurgerAirMed, sprBurgerAirHeavy];
 			atkAirIndex = [[2], [3], [7]]
             sprAtkCrch = [sprBurgerCrLight, sprBurgerCrMed, sprBurgerCrHeavy];

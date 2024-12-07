@@ -1,16 +1,18 @@
-window_set_fullscreen(true)
-names = ["Pizza", "Burger", "Taco", "Ramen"]
-icons = [sprIconPizza, sprIconBurger, sprIconTaco, sprIconRamen]
-ports = [sprPortPizza, sprPortBurger, sprPortTaco, sprPortRamen]
+randomize(); // Ensure randomness
+window_set_fullscreen(true);
 
-p1Index = 0
-p2Index = 0
-//comIndex - 0
+names = ["Pizza", "Burger", "Taco", "Ramen"];
+icons = [sprIconPizza, sprIconBurger, sprIconTaco, sprIconRamen];
+ports = [sprPortPizza, sprPortBurger, sprPortTaco, sprPortRamen];
 
-p1Ready = false
-p2Ready = false
-//comReady = false
+// Define an array with the specific rooms
+rooms = [rmStage1, rmStage2, rmStage3];
 
-global.p1Char = CHAR_PIZZA
-global.p2Char = CHAR_TACO
-//global.comChar = CHAR_TACO
+p1Index = 0;
+p2Index = 0;
+
+p1Ready = false;
+p2Ready = false;
+
+global.p1Char = CHAR_PIZZA;
+global.p2Char = CHAR_TACO;
