@@ -4,6 +4,7 @@ grv = GRAVITY_FORCE
 
 character = CHAR_PIZZA
 controller = CONT_P1
+controllerIndex = -1
 
 opponent = noone
 

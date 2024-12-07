@@ -1,15 +1,26 @@
-// Check for menu navigation inputs
-if kcp(ord("W")) {
-    currIndex--;
-} else if kcp(ord("S")) {
-    currIndex++;
+navUp = kcp(ord("W"))
+navDown = kcp(ord("S"))
+accept = kcp(ord("R"))
+
+
+if (array_length(global.gamepads) >= 1){
+    navUp = gamepad_button_check_pressed(global.gamepads[0], gp_padu)
+    navDown = gamepad_button_check_pressed(global.gamepads[0], gp_padd)
+    accept = gamepad_button_check_pressed(global.gamepads[0], gp_face1)
+
 }
 
-// Clamp currIndex to valid range
-currIndex = clamp(currIndex, 0, array_length_1d(menu) - 1);
+if  navUp {
+    currIndex-- ;
+}
 
-// Handle selection when 'R' is pressed
-if kcp(ord("R")) {
+if   navDown  {
+    currIndex++ ;
+}
+
+currIndex = clamp(currIndex, 0, array_length_1d(menu));
+
+if accept{
     switch (currIndex) {
         case 0: // PvP
             room_goto(rmCharSelect); // Redirect to character selection

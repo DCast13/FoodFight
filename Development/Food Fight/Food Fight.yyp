@@ -62,6 +62,7 @@
     {"id":{"name":"objCharSelect","path":"objects/objCharSelect/objCharSelect.yy",},},
     {"id":{"name":"objController","path":"objects/objController/objController.yy",},},
     {"id":{"name":"objControls","path":"objects/objControls/objControls.yy",},},
+    {"id":{"name":"objGamepads","path":"objects/objGamepads/objGamepads.yy",},},
     {"id":{"name":"objGround","path":"objects/objGround/objGround.yy",},},
     {"id":{"name":"objHit","path":"objects/objHit/objHit.yy",},},
     {"id":{"name":"objMainMenu","path":"objects/objMainMenu/objMainMenu.yy",},},
