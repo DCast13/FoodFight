@@ -7,3 +7,6 @@ and other open sources
 
 Sprites:
 All sprites are original
+
+Video Tutorials: (Used for structuring)
+https://www.youtube.com/watch?v=5cRj3L94nA8&list=PL-9jhWJUzBKF4WRaxOh-N1mNksa93WZmy&index=1
