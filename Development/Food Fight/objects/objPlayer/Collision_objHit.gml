@@ -10,7 +10,7 @@ if last_hit_id == other._id {
 #endregion
 
 //block
-if kc(backwardKey) and landed and state == STATE_FREE {
+if kc(backwardKey) and landed and state = STATE_FREE {
 	if other.low {
 		if crouch {
 			state = STATE_BLOCK

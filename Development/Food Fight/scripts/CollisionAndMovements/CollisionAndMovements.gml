@@ -3,7 +3,7 @@ function CollisionAndMovement(){
 	vspd += grv
 
 	//horizontal collision
-	if place_meeting(x + hspd, y, objGround) {
+	if place_meeting(x + hspd, y-16, objGround) {
 		while !place_meeting(x + sign(hspd), y, objGround) {
 			x += sign(hspd)
 		}
