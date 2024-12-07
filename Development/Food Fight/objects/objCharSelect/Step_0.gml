@@ -2,6 +2,7 @@ if !p1Ready {
     if (kcp(ord("D"))) p1Index++;
     if (kcp(ord("A"))) p1Index--;
     if (kcp(ord("R"))) {
+		audio_play_sound(SelectSound, 2, 0)
         p1Ready = true;
         global.p1Char = p1Index;
     }
@@ -11,6 +12,7 @@ if !p2Ready {
     if (kcp(vk_right)) p2Index++;
     if (kcp(vk_left)) p2Index--;
     if (kcp(ord("M"))) {
+		audio_play_sound(SelectSound, 2, 0)
         p2Ready = true;
         global.p2Char = p2Index;
     }

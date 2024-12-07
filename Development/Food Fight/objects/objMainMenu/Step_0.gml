@@ -10,6 +10,7 @@ currIndex = clamp(currIndex, 0, array_length_1d(menu) - 1);
 
 // Handle selection when 'R' is pressed
 if kcp(ord("R")) {
+	audio_play_sound(SelectSound, 2, 0)
     switch (currIndex) {
         case 0: // PvP
             room_goto(rmCharSelect); // Redirect to character selection

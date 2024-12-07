@@ -16,6 +16,7 @@ function CharacterControl() {
 
                 // Jumping
                 if (kcp(up)) {
+					audio_play_sound(JumpSound, 2, 0)
                     vspd = JUMP_FORCE;
                     landed = false;
                 }

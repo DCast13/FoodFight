@@ -21,5 +21,5 @@ HitManager()
 CollisionAndMovement()
 
 if hp <= 0 {
-	room_goto(rmMainMenu)
+	room_goto(rmWin)
 }
