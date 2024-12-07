@@ -2,7 +2,6 @@ navUp = kcp(ord("W"))
 navDown = kcp(ord("S"))
 accept = kcp(ord("R"))
 
-
 if (array_length(global.gamepads) >= 1){
     navUp = gamepad_button_check_pressed(global.gamepads[0], gp_padu)
     navDown = gamepad_button_check_pressed(global.gamepads[0], gp_padd)
@@ -21,6 +20,7 @@ if   navDown  {
 currIndex = clamp(currIndex, 0, array_length_1d(menu));
 
 if accept{
+	audio_play_sound(SelectSound, 2, 0)
     switch (currIndex) {
         case 0: // PvP
             room_goto(rmCharSelect); // Redirect to character selection

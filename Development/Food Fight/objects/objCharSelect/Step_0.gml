@@ -24,8 +24,10 @@ if !p1Ready {
     if (navLeft)
         p1Index--
 
-    if (accept)
+    if (accept) {
         p1Ready = true
+		audio_play_sound(SelectSound, 2, 0)
+	}
         global.p1Char = p1Index
 
 }
@@ -37,8 +39,10 @@ if !p2Ready {
     if (navLeft2)
         p2Index--
 
-    if (accept2)
+    if (accept2) {
         p2Ready = true
+		audio_play_sound(SelectSound, 2, 0)
+	}
         global.p2Char = p2Index
 }
 

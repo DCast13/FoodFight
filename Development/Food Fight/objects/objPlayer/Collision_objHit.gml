@@ -14,10 +14,12 @@ if kc(backwardKey) and landed and state == STATE_FREE {
 	if other.low {
 		if crouch {
 			state = STATE_BLOCK
+			audio_play_sound(BlockSound, 2, 0)
 		}
 	}
 	else {
 		state = STATE_BLOCK
+			audio_play_sound(BlockSound, 2, 0)
 	}
 }
 
@@ -31,15 +33,11 @@ last_hit_id = other._id
 //damage the player
 hp -= other.dmg
 
+audio_play_sound(HitSound, 2, 0)
 if landed {
 	state = STATE_HURT
 	image_index = 0
 }
-
-//if !landed {
-//	vspd = JUMP_FORCE
-//	hspd = -WALK_SPD * sign(image_xscale)
-//}
 
 with other {
 	instance_destroy()
