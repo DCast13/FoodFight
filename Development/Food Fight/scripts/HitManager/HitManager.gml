@@ -8,7 +8,12 @@ function HitManager(){
 					var ind = atkCrchIndex[atkType]
 					for (var i = 0; i < array_length(ind); i++) {
 						if round(image_index) == ind[i] {
-							var h = CreateHit(self, 4, 75 * sign(image_xscale), -15)
+							if(atkType == ATK_LIGHT)
+								var h = CreateHit(self, 16, 75 * sign(image_xscale), -15)
+							else if(atkType == ATK_MEDIUM)
+								var h = CreateHit(self, 24, 75 * sign(image_xscale), -15)
+							else if(atkType == ATK_HEAVY)
+								var h = CreateHit(self, 30, 75 * sign(image_xscale), -15)
 							h._id = hit_base_id * round(image_index)
 							h.low = true
 						}
@@ -18,7 +23,12 @@ function HitManager(){
 					var ind = atkIndex[atkType]
 					for (var i = 0; i < array_length(ind); i++) {
 						if round(image_index) == ind[i] {
-							var h = CreateHit(self, 4, 75 * sign(image_xscale), 0)
+							if(atkType == ATK_LIGHT)
+								var h = CreateHit(self, 16, 75 * sign(image_xscale), -15)
+							else if(atkType == ATK_MEDIUM)
+								var h = CreateHit(self, 24, 75 * sign(image_xscale), -15)
+							else if(atkType == ATK_HEAVY)
+								var h = CreateHit(self, 30, 75 * sign(image_xscale), -15)
 							h._id = hit_base_id * round(image_index)
 						}
 					}
@@ -28,7 +38,12 @@ function HitManager(){
 				var ind = atkAirIndex[atkType]
 				for (var i = 0; i < array_length(ind); i++) {
 					if round(image_index) == ind[i] {
-						var h = CreateHit(self, 4, 90 * sign(image_xscale), -25)
+						if(atkType == ATK_LIGHT)
+								var h = CreateHit(self, 16, 90 * sign(image_xscale), -15)
+							else if(atkType == ATK_MEDIUM)
+								var h = CreateHit(self, 24, 90 * sign(image_xscale), -15)
+							else if(atkType == ATK_HEAVY)
+								var h = CreateHit(self, 30, 90 * sign(image_xscale), -15)
 						h._id = hit_base_id * round(image_index)
 					}
 				}

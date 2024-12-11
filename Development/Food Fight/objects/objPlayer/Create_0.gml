@@ -19,3 +19,4 @@ hit_base_id = -999
 last_hit_id = 999
 
 hp = 200
+
