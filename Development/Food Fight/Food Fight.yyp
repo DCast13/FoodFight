@@ -87,6 +87,7 @@
     {"id":{"name":"kcp","path":"scripts/kcp/kcp.yy",},},
     {"id":{"name":"kcr","path":"scripts/kcr/kcr.yy",},},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},
+    {"id":{"name":"MotionInputManager","path":"scripts/MotionInputManager/MotionInputManager.yy",},},
     {"id":{"name":"RandomizeBaseId","path":"scripts/RandomizeBaseId/RandomizeBaseId.yy",},},
     {"id":{"name":"RenderHP","path":"scripts/RenderHP/RenderHP.yy",},},
     {"id":{"name":"scrControllerAssignment","path":"scripts/scrControllerAssignment/scrControllerAssignment.yy",},},

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MotionInputManager",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MotionInputManager",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

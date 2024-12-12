@@ -20,3 +20,4 @@ last_hit_id = 999
 
 hp = 200
 
+motionInputs = ""
